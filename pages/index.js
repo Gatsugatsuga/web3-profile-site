@@ -14,8 +14,11 @@ export default function Home() {
       <ThemeToggle />
       <h1 className="text-4xl mb-4">Welcome to say ILY.art</h1>
             <p className="font-ledger mb-2">{"<3"}</p>
-      <p className="font-instrument">It’s not another portfolio.</p>
-  <p className="font-instrument">So slow down and breathe, feel the love.
+      <p className="font-instrument">Keep it genuine. Keep it magic.
+
+
+</p>
+  <p className="font-instrument">So slow down and breathe, feel/share the love.
 </p>
       {/* Wallet connection and NFT embed components will go here */}
     </div>
