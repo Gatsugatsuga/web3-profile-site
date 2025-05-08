@@ -12,9 +12,11 @@ export default function Home() {
         />
       </Head>
       <ThemeToggle />
-      <h1 className="text-4xl mb-4">"Welcome to say ILY.art"</h1>
-      <p className="font-ledger mb-2">This section uses the Ledger font.</p>
-      <p className="font-instrument">This section uses the Instrument Serif font.</p>
+      <h1 className="text-4xl mb-4">Welcome to say ILY.art</h1>
+      <p className="font-ledger mb-2"><3</p>
+      <p className="font-instrument">It’s not another portfolio.</p>
+  <p className="font-instrument">So slow down, breathe, feel the love.
+</p>
       {/* Wallet connection and NFT embed components will go here */}
     </div>
   );
