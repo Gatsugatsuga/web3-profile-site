@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <ThemeToggle />
       <h1 className="text-4xl mb-4">Welcome to say ILY.art</h1>
-      <p className="font-ledger mb-2"><3</p>
+      <p className="font-ledger mb-2">{"<3"}</p>
       <p className="font-instrument">It’s not another portfolio.</p>
   <p className="font-instrument">So slow down, breathe, feel the love.
 </p>
