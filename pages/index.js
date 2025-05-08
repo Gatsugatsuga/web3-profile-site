@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <ThemeToggle />
       <h1 className="text-4xl mb-4">Welcome to say ILY.art</h1> 
-  <p className="font-instrument">Slow down and breathe,feel the love and share the magic.
+  <p className="font-instrument">Slow down, feel the love and share the magic.
 </p>
             <p className="font-instrument">Keep it genuine. Keep it weird.
             </p>
