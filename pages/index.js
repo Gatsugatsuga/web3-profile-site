@@ -12,7 +12,7 @@ export default function Home() {
         />
       </Head>
       <ThemeToggle />
-      <h1 className="text-4xl mb-4">Welcome to your Web3 Profile</h1>
+      <h1 className="text-4xl mb-4">"Welcome to say ILY.art"</h1>
       <p className="font-ledger mb-2">This section uses the Ledger font.</p>
       <p className="font-instrument">This section uses the Instrument Serif font.</p>
       {/* Wallet connection and NFT embed components will go here */}
