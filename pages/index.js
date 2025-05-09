@@ -59,7 +59,7 @@ export default function TemporaryHome() {
         {/* Footer / CTA */}
         <footer className="mt-12 text-center space-y-4">
           <h4 className="text-xl font-semibold mb-2">ILY, say it back!</h4>
-          <p>Join the waitlist or subscribe to updates:</p>
+         
 
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-4">
             <a
@@ -68,16 +68,9 @@ export default function TemporaryHome() {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition"
             >
-              Join the Waitlist
+              Join the Waitlist!
             </a>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf6dZRkf8gVIX_i9K8kbXZGlah9Dq3ReQisEtDpDnz5jYHPcQ/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 bg-pink-600 text-white rounded hover:bg-pink-500 transition"
-            >
-              Subscribe to Newsletter
-            </a>
+        
           </div>
         </footer>
       </main>
