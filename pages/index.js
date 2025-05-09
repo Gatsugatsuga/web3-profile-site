@@ -58,4 +58,9 @@ export default function TemporaryHome() {
         {/* Footer / CTA */}
         <footer className="mt-12">
           <h4 className="text-xl font-semibold mb-4">ILY, say it back!</h4>
+          Join the waitlist!
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSf_3GHSAizqI5-qK2EoyW7mNNm_z39Bec1aDu_qCiUIOcDGmw/viewform?embedded=true" target="_blank">Subscribe to our newsletter</a>
+Subscribe to our newsletter
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSf6dZRkf8gVIX_i9K8kbXZGlah9Dq3ReQisEtDpDnz5jYHPcQ/viewform?embedded=true" target="_blank">Subscribe to our newsletter</a>
+
           <button c
