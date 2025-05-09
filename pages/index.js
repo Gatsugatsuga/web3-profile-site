@@ -30,22 +30,21 @@ export default function TemporaryHome() {
           <h1 className="text-3xl md:text-4xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
             What is SayILY.art?
           </h1>
-          <p className="text-lg" style={{ fontFamily: "'Ledger', serif" }}>
+          <p className="text-lg" style={{ fontFamily: "'Instrument Serif', serif" }}>
             Raw and a little chaotic — beautifully so, SayILY.art is a space to spotlight your creativity, uplift your fellow artists, and reconnect with the pieces you’ve lovingly collected.
           </p>
-          <p className="text-lg" style={{ fontFamily: "'Ledger', serif" }}>
+          <p className="text-lg" style={{ fontFamily: "'Instrument Serif', serif" }}>
             Slow down, feel the love, and share the magic.
           </p>
-          <p className="text-lg" style={{ fontFamily: "'Ledger', serif" }}>
+          <p className="text-lg" style={{ fontFamily: "'Instrument Serif', serif" }}>
             Rediscover the art that moved you — across chains, across time.
             <br />
             Feel that first spark again.
           </p>
-          <p className="text-lg" style={{ fontFamily: "'Ledger', serif" }}>
+          <p className="text-lg" style={{ fontFamily: "'Instrument Serif', serif" }}>
             Celebrate the creativity that brought you here. One piece at a time.
           </p>
           <p className="text-xl font-semibold" style={{ fontFamily: "'Instrument Serif', serif" }}>
-            Say ILY &lt;3
             <br />
             ILY, say it back!
           </p>
