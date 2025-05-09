@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import Head from 'next/head';
-import logo from '../public/Logo_Final.png'; // Make sure this is in your /public folder
+import Image from 'next/image';
+
+<Image src="/Logo_Final.png" alt="SayILY Logo" width={160} height={160} />
+
 
 export default function TemporaryHome() {
   return (
