@@ -14,19 +14,17 @@ export default function TemporaryHome() {
         />
       </Head>
 
-      <main className="min-h-screen flex flex-col items-center justify-center bg-white text-gray-900 px-6 py-12 text-center font-serif">
-        {/* Logo */}
-        <div className="mb-12">
+      <main className="min-h-screen flex items-center justify-center bg-white text-gray-900 text-center font-serif px-4">
+        <div className="flex flex-col items-center justify-center max-w-3xl space-y-6">
+          {/* Logo */}
           <Image
             src="/Logo_Final_almostperfectlytransparent.png"
             alt="SayILY Logo"
             width={160}
             height={160}
           />
-        </div>
 
-        {/* Intro Text */}
-        <div className="max-w-3xl space-y-6">
+          {/* Intro Text */}
           <h1 className="text-3xl md:text-4xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
             What is SayILY.art?
           </h1>
@@ -45,24 +43,19 @@ export default function TemporaryHome() {
             Celebrate the creativity that brought you here. One piece at a time.
           </p>
           <p className="text-xl font-semibold" style={{ fontFamily: "'Instrument Serif', serif" }}>
-            <br />
             ILY, say it back!
           </p>
-        </div>
 
-        {/* CTA Button */}
-        <footer className="mt-12 text-center">
-          <div className="flex justify-center">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSf_3GHSAizqI5-qK2EoyW7mNNm_z39Bec1aDu_qCiUIOcDGmw/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition"
-            >
-              Join the Waitlist!
-            </a>
-          </div>
-        </footer>
+          {/* CTA Button */}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf_3GHSAizqI5-qK2EoyW7mNNm_z39Bec1aDu_qCiUIOcDGmw/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition"
+          >
+            Join the Waitlist!
+          </a>
+        </div>
       </main>
     </>
   );
