@@ -17,7 +17,7 @@ export default function TemporaryHome() {
       <main className="min-h-screen flex flex-col items-center justify-center text-center bg-white text-gray-900 px-4 py-12 font-serif">
         {/* Hero */}
         <div className="mb-12">
-          <Image src="/Logo_Final.png" alt="SayILY Logo" width={160} height={160} />
+          <Image src="/Logo_Final_almostperfectlytransparent.png" alt="SayILY Logo" width={160} height={160} />
           <h1 className="text-4xl md:text-5xl font-bold mt-6" style={{ fontFamily: "'Playfair Display', serif" }}>
             SayILY.art
           </h1>
