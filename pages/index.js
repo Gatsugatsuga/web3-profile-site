@@ -18,7 +18,8 @@ export default function SayILYHomePage() {
           Raw and a little chaotic — beautifully so.
         </p>
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
-          <Button className="bg-pink-600 hover:bg-pink-700 text-white">Create your space</Button>
+         <button className="border border-gray-400 text-gray-800 px-6 py-2 rounded-xl font-semibold hover:bg-gray-100">Create your space</button>
+
           <Button variant="outline">Meet the artists</Button>
         </div>
       </section>
@@ -57,7 +58,8 @@ export default function SayILYHomePage() {
       <footer className="py-20 px-6 bg-pink-100 text-center">
         <h4 className="text-3xl font-bold mb-6">ILY, say it back!</h4>
         <div className="flex justify-center gap-4 flex-wrap">
-          <Button className="bg-pink-600 hover:bg-pink-700 text-white">Create your space</Button>
+         <button className="border border-gray-400 text-gray-800 px-6 py-2 rounded-xl font-semibold hover:bg-gray-100">Create your space</button>
+
           <Button variant="outline">About us</Button>
         </div>
       </footer>
