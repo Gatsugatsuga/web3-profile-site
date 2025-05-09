@@ -1,9 +1,5 @@
-import Image from 'next/image';
 import Head from 'next/head';
 import Image from 'next/image';
-
-<Image src="/Logo_Final.png" alt="SayILY Logo" width={160} height={160} />
-
 
 export default function TemporaryHome() {
   return (
@@ -12,12 +8,15 @@ export default function TemporaryHome() {
         <title>SayILY.art</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Instrument+Serif&family=Ledger&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Instrument+Serif&family=Ledger&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <main className="min-h-screen flex flex-col items-center justify-center text-center bg-white text-gray-900 px-4 py-12 font-serif">
         {/* Hero */}
         <div className="mb-12">
-          <Image src={logo} alt="SayILY Logo" width={160} height={160} />
+          <Image src="/Logo_Final.png" alt="SayILY Logo" width={160} height={160} />
           <h1 className="text-4xl md:text-5xl font-bold mt-6" style={{ fontFamily: "'Playfair Display', serif" }}>
             SayILY.art
           </h1>
@@ -59,11 +58,4 @@ export default function TemporaryHome() {
         {/* Footer / CTA */}
         <footer className="mt-12">
           <h4 className="text-xl font-semibold mb-4">ILY, say it back!</h4>
-          <button className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-full font-semibold shadow-md transition-all duration-200">
-            Join the waitlist! Subscribe
-          </button>
-        </footer>
-      </main>
-    </>
-  );
-}
+          <button c
