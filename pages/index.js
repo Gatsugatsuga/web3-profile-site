@@ -1,6 +1,3 @@
-// sayILYHomePage.tsx
-import React from "react";
-
 export default function SayILYHomePage() {
   return (
     <div className="font-sans bg-white text-gray-900">
@@ -17,13 +14,16 @@ export default function SayILYHomePage() {
           Raw and a little chaotic — beautifully so.
         </p>
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
-         <button className="border border-gray-400 text-gray-800 px-6 py-2 rounded-xl font-semibold hover:bg-gray-100">Create your space</button>
-
-          <Button variant="outline">Meet the artists</Button>
+          <button className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-2 rounded-xl font-semibold shadow-md">
+            Create your space
+          </button>
+          <button className="border border-gray-400 text-gray-800 px-6 py-2 rounded-xl font-semibold hover:bg-gray-100">
+            Meet the artists
+          </button>
         </div>
       </section>
 
-      {/* Middle Section: What is this? */}
+      {/* Middle Section */}
       <section className="py-16 px-6 bg-white text-center">
         <h2 className="text-3xl md:text-4xl font-semibold mb-6">
           Not a pristine gallery.
@@ -53,13 +53,16 @@ export default function SayILYHomePage() {
         </ul>
       </section>
 
-      {/* Footer / Final CTA */}
+      {/* Footer */}
       <footer className="py-20 px-6 bg-pink-100 text-center">
         <h4 className="text-3xl font-bold mb-6">ILY, say it back!</h4>
         <div className="flex justify-center gap-4 flex-wrap">
-         <button className="border border-gray-400 text-gray-800 px-6 py-2 rounded-xl font-semibold hover:bg-gray-100">Create your space</button>
-
-          <Button variant="outline">About us</Button>
+          <button className="bg-pink-600 hover:bg-pink-700 text-white px-6 py-2 rounded-xl font-semibold shadow-md">
+            Create your space
+          </button>
+          <button className="border border-gray-400 text-gray-800 px-6 py-2 rounded-xl font-semibold hover:bg-gray-100">
+            About us
+          </button>
         </div>
       </footer>
     </div>
